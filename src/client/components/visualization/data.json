@@ -1,0 +1,35 @@
+{
+  "year": [
+    {
+      "value": "2016",
+      "color": "#4C78A9"
+    },
+    {
+      "value": "2017",
+      "color": "#F48E13"
+    }
+  ],
+  "data" : [
+    {
+      "name": "All Others",
+      "2016margin" : 10,
+      "2017margin" : 10,
+      "2016": 100,
+      "2017": 150
+    },
+    {
+      "name": "Calkins Burke Zannie",
+      "2016margin" : 15,
+      "2017margin" : 15,
+      "2016": 300,
+      "2017": 400
+    },
+    {
+      "name": "Cia Comercial Herdez",
+      "2016margin" : 8,
+      "2017margin" : 8,
+      "2016": 200,
+      "2017": 300
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "valid": true,
+  "version": "2.0.2",
+  "timestamp": 1544628672921,
+  "context": "src\\client",
+  "output": {
+    "path": "dist\\js",
+    "filename": "[name].bundle.dev.js",
+    "publicPath": "http://localhost:2992/js/"
+  },
+  "assets": {
+    "marked": {
+      "src/client/components/commonComponents/assets/logo.png": "130776872afdd95f807dc184e762febe.png",
+      "src/client/components/commonComponents/assets/wm_logo.svg": "a16ae523117bdc3026c75120736cdfb0.svg"
+    },
+    "chunks": {
+      "pdfmake": "f5b4bb83df26923b81d2.pdfmake.js",
+      "xlsx": "f5b4bb83df26923b81d2.xlsx.js",
+      "canvg": "f5b4bb83df26923b81d2.canvg.js",
+      "responsivedefaults": "f5b4bb83df26923b81d2.responsivedefaults.js",
+      "main": [
+        "main.bundle.dev.js",
+        "main.style.f5b4bb83df26923b81d2.css",
+        "main.style.css"
+      ]
+    }
+  },
+  "webpackDev": {
+    "skipSetEnv": false,
+    "url": "http://localhost:2992",
+    "addUrl": false
+  },
+  "isWebpackDev": true,
+  "assetsFile": "dist\\isomorphic-assets.json"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "cogs-mx",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "files": [
+    "server",
+    "src",
+    "lib",
+    "dist"
+  ],
+  "main": "lib/server/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 4 <= 8",
+    "npm": ">= 3 <= 5"
+  },
+  "scripts": {
+    "build": "clap build",
+    "prod-start": "NODE_ENV=production clap -n -x electrode/build prod",
+    "start": "clap dev",
+    "test": "clap check",
+    "coverage": "clap check",
+    "prod": "echo 'Starting standalone server in PROD mode'; NODE_ENV=production node ./lib/server/",
+    "heroku-postbuild": "clap build",
+    "prestart": "clap build",
+    "publish-static": "pronto-js -f \"dist/**/{*.js,*.css,*.woff,*.eot,*.ttf,*.jpg,*.jpeg,*.png,*.gif}\" -o \"config/assets.json\""
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.0.4",
+    "@material-ui/icons": "^3.0.1",
+    "@walmart/electrode-wml-app": "^2.0.0",
+    "electrode-archetype-react-app": "^5.0.2",
+    "phantomjs-prebuilt": "^2.1.16",
+    "react-swipeable-views": "^0.13.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "typeface-roboto": "0.0.54"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^3.2.2",
+    "electrode-archetype-react-app-dev": "^5.0.2",
+    "xclap": "^0.2.24"
+  },
+  "private": true
+}

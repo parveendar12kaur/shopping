@@ -1,0 +1,15 @@
+.footer{
+  background-color: #ffffff;
+  border-top: solid 1px #4b4b4b;
+  margin-top: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 45px;
+}
+
+.footer_logo{
+  padding-top: 10px;
+  padding-right: 27px;
+  height: 20px;
+}

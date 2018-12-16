@@ -1,0 +1,200 @@
+.body {
+    font-family: 'Roboto';
+}
+
+.grayBackgroud {
+    background-color: #f2f2f2;
+}
+
+.screen {
+    height: 850px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #404040;
+    font-size: 30px;
+    /*margin-top: 40px;*/
+}
+
+.subTitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #404040;
+    font-size: 20px;
+    /*margin-top: 40px;*/
+}
+
+.containerOfContainers {
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    margin-top: 30px;
+    width: 65%;
+    /*margin-left: 120px;*/
+}
+
+.headerInputContainer {
+    margin-top: 10px;
+    width: 85%;
+    /*margin-left: 120px;*/
+}
+
+.subtitleHeaderInputContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 200px;
+  height: 180px;
+  margin-top: 15px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+}
+
+.smallPadding{
+  padding-top: 15px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.LadderFilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.searchInputsContainer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px 5px 13px 1px rgba(74, 74, 74, 0.43);
+    -moz-box-shadow: 0px 5px 13px 1px rgba(74, 74, 74, 0.43);
+    box-shadow: 0px 5px 13px 1px rgba(74, 74, 74, 0.43);
+}
+
+
+.inputs {
+    margin-bottom: 80px;
+}
+
+.searchInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.searchButtonSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+.buttonMargin {
+    margin-right: 40px;
+}
+
+/*Flex*/
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+.flexSpaceBetween {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Input Size*/
+
+.middleInput {
+    width: 400px;
+    padding-top: 31px;
+}
+
+.smallInput {
+    width: 180px;
+}
+
+.mediumInput {
+    width: 450px;
+}
+
+.partBlueBorder {
+    border-style: solid;
+    border-color: #3d6cc8;
+    border-width: 1px;
+    width: fit-content;
+}
+
+.greenBottonOutline {
+    border-style: solid;
+    border-color: #6caa43;
+    border-width: 1px;
+    width: fit-content;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dateTime {
+    font-family: 'Roboto';
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 0;
+}
+
+.topDate {
+    display: flex;
+    justify-content: row;
+}
+
+.hour {
+    margin-right: 20px;
+}
+
+.menuButtonsSet {
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton {
+    display: flex;
+    justify-content: center;
+}
+
+.iconSetting {
+    height: 80px;
+    padding-top: 10px;
+    color: #727272;
+}
